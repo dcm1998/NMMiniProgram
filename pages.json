@@ -1,0 +1,176 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue",
+    "^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pagesStore",
+      "pages": [
+        {
+          "path": "login",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "register",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "editUser",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "myCar",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "addCar",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "agreementInfo",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "carRegisterIn",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "carRegisterOut",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "carStop",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "privacyPolicy",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "invoiceTitle",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "addInvoiceTitle",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "contractManagement",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "walletRecharge",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "walletRefund",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "walletBill",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "wayBillDetail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pagesShop",
+      "pages": [
+        {
+          "path": "bluetoothConnect",
+          "style": {
+            "navigationBarTitleText": "蓝牙通信"
+          }
+        },
+        {
+          "path": "customCamera",
+          "style": {
+            "navigationBarTitleText": "自定义相机"
+          }
+        },
+        {
+          "path": "openDocument",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "文档预览"
+          }
+        },
+        {
+          "path": "charts",
+          "style": {
+            "navigationBarTitleText": "图表展示"
+          }
+        },
+        {
+          "path": "keyboard",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pagesAI",
+      "pages": [
+        {
+          "path": "chatBox",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

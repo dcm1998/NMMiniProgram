@@ -1,0 +1,16 @@
+{
+    "id": "steps-col",
+    "name": "步骤器",
+    "displayName": "步骤器",
+    "version": "1.0",
+    "description": "竖向步骤器，简单轮子，方便使用",
+    "keywords": [
+        "steps，步骤器"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

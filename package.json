@@ -1,0 +1,13 @@
+{
+  "id": "c8-parking-miniprogram",
+  "displayName": "欣创园智慧停车",
+  "version": "1.0.0",
+  "description": "欣创园智慧停车提供智能化的停车服务，包括停车场信息查询、预约停车、便捷寻车、在线支付等功能。。",
+  "keywords": [
+    "会员套餐",
+    "地图导航"
+  ],
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}

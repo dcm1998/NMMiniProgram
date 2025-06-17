@@ -1,0 +1,16 @@
+{
+    "id": "xy-form",
+    "name": "可配置表单",
+    "displayName": "可配置表单",
+    "version": "1.0.0",
+    "description": "可配置表单",
+    "keywords": [
+        "表单"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

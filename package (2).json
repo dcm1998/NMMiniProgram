@@ -1,0 +1,15 @@
+{
+    "id": "Step-bar",
+    "name": "进度条",
+    "version": "0.01",
+    "description": "进度条 显示",
+    "keywords": [
+        "进度条"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

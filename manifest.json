@@ -1,0 +1,46 @@
+{
+  "name": "欣创园智慧停车",
+  "appid": "__UNI__EB8352G",
+  "description": "",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wxd1274ffbf7030f7d",
+    "setting": {
+      "urlCheck": false,
+      "minified": true,
+      "postcss": true,
+      "es6": true,
+      "ignoreUploadUnusedFiles": false,
+      "ignoreDevUnusedFiles": false
+    },
+    "optimization": {
+      "subPackages": true
+    },
+    "usingComponents": true,
+    "plugins": {
+
+    },
+    "permission": {
+
+    },
+
+    "requiredPrivateInfos": ["chooseLocation", "onLocationChange", "startLocationUpdate"],
+    "lazyCodeLoading": "requiredComponents",
+    "libVersion": "latest"
+  },
+  "mp-alipay": {
+    "usingComponents": true
+  },
+  "mp-baidu": {
+    "usingComponents": true
+  },
+  "mp-toutiao": {
+    "usingComponents": true
+  },
+  "vueVersion": "2",
+  "uniStatistics": {
+    "enable": false
+  }
+}
